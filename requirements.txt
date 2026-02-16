@@ -4,7 +4,8 @@ gunicorn>=21.2
 werkzeug>=2.3
 
 # ===== Core DL =====
-torch>=2.1,<2.4
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
 torchvision>=0.16,<0.19
 torchaudio>=2.1,<2.4
 
