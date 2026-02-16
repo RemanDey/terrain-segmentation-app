@@ -1,28 +1,9 @@
-# ===== Web =====
-flask>=2.3
-gunicorn>=21.2
-werkzeug>=2.3
+flask
+gunicorn
+numpy
+pillow
+opencv-python-headless
 
-# ===== Core DL =====
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.5.1
-torchvision>=0.16,<0.19
-torchaudio>=2.1,<2.4
-
-# ===== Meta DINOv2 dependencies =====
-timm>=0.9.12
-einops>=0.7.0
-fvcore>=0.1.5.post20221221
-iopath>=0.1.10
-xformers>=0.0.23; platform_system!="Windows"
-
-# ===== Image + CV =====
-numpy>=1.24,<2.0
-opencv-python>=4.8
-Pillow>=9.5
-
-# ===== Utility =====
-tqdm>=4.65
-pyyaml>=6.0
-matplotlib>=3.7
-scipy>=1.10
+torchvision==0.20.1
